@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="index.css"/>
+    <link rel="stylesheet" href="my-colors.css">
+    <title>PGA Venues</title>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar navbar-light bg-primary">
+        <!-- <div class="container"> -->
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="./images/logos/logo-aqua.png"
+              height="100%"
+              width="30px"
+              
+              alt=""
+              loading="lazy"
+            />
+          </a>
+        <!-- </div> -->
+      </nav>
+      <div class="p-4 text-center bg-dark text-white" style="width: 100%; margin: auto;">
+        <h1 class="mb-3">PGA Data</h1>
+        <h4 class="mb-3">
+          PGA Tour Venue Analysis for the top 50 golfers worldwide
+        </h4>
+      </div>
+    </header>
+    <body>
+
+    <div class="col-md-12 text-center">
+      <h1 class="p-4 text-white text-center">Next Tournament</h1>
+    </div>
+
+    <div id="tournamentDiv"></div>
+
+    <div class="col-md-12 text-center"> 
+      <button id="buttonTwo" type="button" class="btn btn-info text-primary">See Player Stats at This Venue</button>
+      </div>
+
+    <div id="playersDiv"></div>
+
+    </div>
+
+    <div class="footerDiv">
+      <footer class="bg-primary text-white">
+        <div class="container py-1">
+          <div class="row py-4">
+            <div class="col-md-12 text-center">
+            <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="/images/logos/logo-aqua.png" alt="" width="180" class="mb-3">
+              <p class="font-italic text-muted">This page will update with new data for the upcoming PGA tournament every Wednesday. Original data from https://sportsdata.io/</p>
+              <ul class="list-inline mt-4">
+                <li class="list-inline-item"><i class="fa fa-twitter"></i></a></li>
+                <li class="list-inline-item"><i class="fa fa-facebook"></i></a></li>
+                <li class="list-inline-item"><i class="fa fa-instagram"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          </div>
+        </div>
+    
+        <!-- Copyrights -->
+        <!-- <div class="bg-light py-4">
+          <div class="container text-center">
+            <p class="text-muted mb-0 py-2">© 2019 Bootstrapious All rights reserved.</p>
+          </div>
+        </div> -->
+      </footer>
+
+    </div>
+
+
+    <!-- JS for Bootstrap, Javascript, etc. -->
+    
+    <script src="index.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
