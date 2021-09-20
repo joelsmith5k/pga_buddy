@@ -27,7 +27,7 @@ function build_tournament_card(next_tournament) {
   );
 
   var tournament_photo = document.createElement("img");
-  tournament_photo.setAttribute("src", "images/safeway.jpg");
+  tournament_photo.setAttribute("src", "images/country_club_jackson.jpg");
   tournament_photo.setAttribute("class", "card-img-top");
 
   var tournament_body = document.createElement("div");
