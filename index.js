@@ -185,9 +185,13 @@ async function display_players() {
 
         var player_card_title = document.createElement("h5");
         player_card_title.setAttribute("class", "card-title");
-        var player_name = document.createTextNode(player_stats[i].Name + ' ~ ' + player_stats[i].Country);
-        player_card_title.appendChild(player_name);
-
+        if (player_stats[i].Country != null) {
+          var player_name = document.createTextNode(player_stats[i].Name + ' ~ ' + player_stats[i].Country);
+          player_card_title.appendChild(player_name);
+        } else {
+          var player_name = document.createTextNode(player_stats[i].Name);
+          player_card_title.appendChild(player_name);
+        }
         var card_stats_list = document.createElement("ul");
         card_stats_list.setAttribute("class", "list-group list-group-flush");
 
